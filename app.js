@@ -325,5 +325,6 @@ App({
     userInfo: null,
     rankList:{},   // 排行榜
     otherIndex:0,    //排行榜第几个人的索引
+    otherInfo:{}     //从排行榜进入个人信息页面调动的他人信息接口 getOtherInfoUrl
   }
 })

@@ -40,7 +40,9 @@ Page({
         expectGender:null,
         expectCapYear:null,
         expectLowerYear:null,
-        expectMatch:null,
+        matchArray:['0%','10%','20%','30%','40%','50%','60%','70%','80%','90%','100%'],
+        matchIndex:0,
+        expectMatch:null, //最后要上传的信息（1,10,20..）
         submitPerInfoFlag:false     //上传信息成功过与否
     },
     otherInfo:function(){
